@@ -8,7 +8,7 @@ export const searchIssues: Tool = {
     properties: {
       jql: {
         type: "string",
-        description: "JQL query string (e.g., 'project = PROJ AND status = "To Do"')",
+        description: "JQL query string (e.g., 'project = PROJ AND status = To Do')",
       },
       maxResults: {
         type: "number",
